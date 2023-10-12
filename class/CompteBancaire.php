@@ -31,8 +31,7 @@ class CompteBancaire {
     }
 
     public function affiche() {
-        echo "Titulaire du compte : <br>" . $this->nom . '<br>';
-        echo "Solde du compte : <br>" . $this->solde . " euros<br><br>";
+        echo "Le solde du compte bancaire de " . $this->nom . ' est de ' . $this->solde . '€<br>';
     }
 
 }

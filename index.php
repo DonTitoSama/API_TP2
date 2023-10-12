@@ -9,5 +9,11 @@ $compte2->depot(500);
 $compte1->affiche();
 $compte2->affiche();
 
+$compte1->retrait(500);
+$compte2->retrait(500);
+
+$compte1->affiche();
+$compte2->affiche();
+
 ?>
 
